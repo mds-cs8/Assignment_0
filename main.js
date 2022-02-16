@@ -11,6 +11,6 @@ console.log(grammer);
 
 var parser = peg.generate(grammer)
 
-var input1 = '6+7+7'
+var input1 = '438018480'
 var output1 = parser.parse(input1)
 console.log(output1);
